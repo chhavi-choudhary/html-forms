@@ -31,17 +31,18 @@
 				<p>What type of UFO do you prefer?</p>
 				
 					<label><input type="radio" name="ufo" value="classic">Classic oval UFO</label>
-					<label><input type="radio" name="ufo" value="stars">Star Wars-style Imperial cruiser</label>
+					<label><input type="radio" name="ufo" value="stars" checked>Star Wars-style Imperial cruiser</label>
 					<label><input type="radio" name="ufo" value="battle">Battlestar Galactica-style Viper</label>
 					<label><input type="radio" name="ufo" value="borg">Borg-style cube</label>
 				
-				<p>What type of abduction experience do you want?</p>
-				<ul>
-					<li>Tour of the solar system</li>
-					<li>Alien dinner and discussion</li>
-					<li>Alien dance lessons</li>
-					<li>Whale watching</li>
-				</ul>
+				<label type="abduction">What type of abduction experience do you want?</label>
+				<select id="abduction" name ="abtype">
+					<option selected >Select one... </option>
+					<option value="solar">Tour of the solar system</option>
+					<option value="dinner">Alien dinner and discussion</option>
+					<option value="dance" >Alien dance lessons</option>
+					<option value="warch">Whale watching</option>
+				</select>
 				<p>Special requests:</p>
 				<p>Add me to your email list</p>
 			</fieldset>
