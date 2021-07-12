@@ -22,23 +22,32 @@
 					<label for="email">Email</label>
 					<input type="text" id="email" name="email">
 				</fieldset>
-				<p>How many people would you like abducted?</p>
+				<fieldset>
+					<legend>About your Abduction</legend>
+					<label for="date">Requested date</label>
+					<input type="date" id="date" name="date">
+				<label for="quantity">How many people would you like abducted?</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10">
 				<p>What type of UFO do you prefer?</p>
-				<ul>
-					<li>Classic oval UFO</li>
-					<li>Star Wars-style Imperial cruiser</li>
-					<li>Battlestar Galactica-style Viper</li>
-					<li>Borg-style cube</li>
-				</ul>
-				<p>What type of abduction experience do you want?</p>
-				<ul>
-					<li>Tour of the solar system</li>
-					<li>Alien dinner and discussion</li>
-					<li>Alien dance lessons</li>
-					<li>Whale watching</li>
-				</ul>
-				<p>Special requests:</p>
-				<p>Add me to your email list</p>
+				
+					<label><input type="radio" name="ufo" value="classic">Classic oval UFO</label>
+					<label><input type="radio" name="ufo" value="stars" checked>Star Wars-style Imperial cruiser</label>
+					<label><input type="radio" name="ufo" value="battle">Battlestar Galactica-style Viper</label>
+					<label><input type="radio" name="ufo" value="borg">Borg-style cube</label>
+				
+				<label type="abduction">What type of abduction experience do you want?</label>
+				<select id="abduction" name ="abtype">
+					<option selected >Select one... </option>
+					<option value="solar">Tour of the solar system</option>
+					<option value="dinner">Alien dinner and discussion</option>
+					<option value="dance" >Alien dance lessons</option>
+					<option value="warch">Whale watching</option>
+				</select>
+				<label for="comments">Special requests:</label>
+				<textarea id="comments" name ="comments" placeholder="don't forget to add your comments"></textarea>
+				<label>
+				<input type="checkbox" value="subscribe" name="subscribe"checked>Add me to your email list</label>
+			</fieldset>
 			</form>
 		</section>
 		<aside>
