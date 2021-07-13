@@ -77,7 +77,9 @@ input:not([type="radio"]):not([type="checkbox"]), textarea, select{
 	border-radius: 10px;
 	border:none;
 }
-
+h1, h3, legend{
+	font-family: 'Bad Script', cursive;
+}
 
 
 
