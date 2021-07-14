@@ -81,10 +81,12 @@ h1, h3, legend{
 	font-family: 'Bad Script', cursive;
 }
 iframe{
-	margin-bottom: 0.7rem;
+	margin-bottom: 1rem;
 }
 address{
 	width: 400px;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
 }
 
 
