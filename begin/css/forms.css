@@ -80,7 +80,12 @@ input:not([type="radio"]):not([type="checkbox"]), textarea, select{
 h1, h3, legend{
 	font-family: 'Bad Script', cursive;
 }
-
+iframe{
+	margin-bottom: 0.7rem;
+}
+address{
+	width: 400px;
+}
 
 
 
